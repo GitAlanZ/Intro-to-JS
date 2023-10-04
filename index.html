@@ -22,10 +22,9 @@
             numberOutput = document.getElementById("numberout");
             myNumber = 0;
             negativesAllowed = false;
-            display()
-
             messageOutput = document.getElementById("output");
             message ="";
+            display()
         }
         function add() {
             console.log(num1 + num2);
@@ -66,12 +65,14 @@
 
             messageOutput.innerHTML = message;
 
-            function addCharacter(ch)
+        }
+
+        function addCharacter(ch)
             {
                 message += ch;
                 display();
             }
-        }
+
         function toggleNegatives()
         {
             negativesAllowed = !negativesAllowed
@@ -99,34 +100,34 @@
     <button onclick="subtractOne();">Subtract</button>
     <button onclick = "toggleNegatives()" id = "negativebtn">Negatives are OFF</button>
 
-    <div id = "output"></div>
+    <div id = "output">Hey</div>
     <hr />
     <button onclick = "addCharacter('A');">A</button>
-    <button onclick = "addCharacter('A')">B</button>
-    <button onclick = "addCharacter('A')">C</button>
-    <button onclick = "addCharacter('A')">D</button>
-    <button onclick = "addCharacter('A')">E</button>
-    <button onclick = "addCharacter('A')">F</button>
-    <button onclick = "addCharacter('A')">G</button>
-    <button onclick = "addCharacter('A')">H</button>
-    <button onclick = "addCharacter('A')">I</button>
-    <button onclick = "addCharacter('A')">J</button>
-    <button onclick = "addCharacter('A')">K</button>
-    <button onclick = "addCharacter('A')">L</button>
-    <button onclick = "addCharacter('A')">M</button>
-    <button onclick = "addCharacter('A')">N</button>
-    <button onclick = "">O</button>
-    <button onclick = "">P</button>
-    <button onclick = "">Q</button>
-    <button onclick = "">R</button>
-    <button onclick = "">X</button>
-    <button onclick = "">T</button>
-    <button onclick = "">U</button>
-    <button onclick = "">V</button>
-    <button onclick = "">W</button>
-    <button onclick = "">X</button>
-    <button onclick = "">Y</button>
-    <button onclick = "">Z</button>
+    <button onclick = "addCharacter('B')">B</button>
+    <button onclick = "addCharacter('C')">C</button>
+    <button onclick = "addCharacter('D')">D</button>
+    <button onclick = "addCharacter('E')">E</button>
+    <button onclick = "addCharacter('F')">F</button>
+    <button onclick = "addCharacter('G')">G</button>
+    <button onclick = "addCharacter('H')">H</button>
+    <button onclick = "addCharacter('I')">I</button>
+    <button onclick = "addCharacter('J')">J</button>
+    <button onclick = "addCharacter('K')">K</button>
+    <button onclick = "addCharacter('L')">L</button>
+    <button onclick = "addCharacter('M')">M</button>
+    <button onclick = "addCharacter('N')">N</button>
+    <button onclick = "addCharacter('O')">O</button>
+    <button onclick = "addCharacter('P')">P</button>
+    <button onclick = "addCharacter('Q')">Q</button>
+    <button onclick = "addCharacter('R')">R</button>
+    <button onclick = "addCharacter('S')">X</button>
+    <button onclick = "addCharacter('T')">T</button>
+    <button onclick = "addCharacter('U')">U</button>
+    <button onclick = "addCharacter('V')">V</button>
+    <button onclick = "addCharacter('W')">W</button>
+    <button onclick = "addCharacter('X')">X</button>
+    <button onclick = "addCharacter('Y')">Y</button>
+    <button onclick = "addCharacter('Z')">Z</button>
 </body>
 
 </html>
